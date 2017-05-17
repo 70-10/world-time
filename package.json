@@ -1,0 +1,28 @@
+{
+  "name": "world-time",
+  "version": "0.1.0",
+  "description": "Display world time",
+  "main": "index.js",
+  "bin": {
+    "world-time": "bin/world-time.js"
+  },
+  "scripts": {
+    "start": "node bin/world-time.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/70-10/world-time.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/70-10/world-time/issues"
+  },
+  "homepage": "https://github.com/70-10/world-time#readme",
+  "dependencies": {
+    "args": "^3.0.1",
+    "cli-table2": "^0.2.0",
+    "moment-timezone": "^0.5.13"
+  }
+}
